@@ -1,6 +1,5 @@
 package com.example.instrumentationTestsHilt.viewModels
 
-import android.util.Log
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.example.instrumentationTestsHilt.models.Article
