@@ -23,15 +23,9 @@ class ArticlesViewModel @Inject constructor(
     init {
         viewModelScope.launch {
             articlesRepository.getArticles()
-                .catch {
-                    Log.d("list-", "exception $it")
-                }
-                .collect {
-                    _articles.value = it
-                }
+                .catch { /* Error case */}
+                .collect { _articles.value = it }
         }
     }
-
-
 
 }
