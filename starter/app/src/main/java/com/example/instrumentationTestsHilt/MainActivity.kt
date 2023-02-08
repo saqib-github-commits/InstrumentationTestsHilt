@@ -14,7 +14,6 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.hilt.navigation.compose.hiltViewModel
 import com.example.instrumentationTestsHilt.composables.ArticlesScreen
 import com.example.instrumentationTestsHilt.ui.theme.InstrumentationTestsHiltTheme
-import com.example.instrumentationTestsHilt.viewModels.ArticlesViewModel
 import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint
