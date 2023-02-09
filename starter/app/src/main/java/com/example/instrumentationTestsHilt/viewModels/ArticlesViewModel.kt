@@ -26,5 +26,4 @@ class ArticlesViewModel @Inject constructor(
                 .collect { _articles.value = it }
         }
     }
-
 }
