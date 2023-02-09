@@ -5,6 +5,6 @@ import kotlinx.coroutines.flow.Flow
 
 interface ArticlesRepository {
 
-    suspend fun getArticles(): Flow<List<Article>>
+    fun getArticles(): Flow<List<Article>>
 
 }
