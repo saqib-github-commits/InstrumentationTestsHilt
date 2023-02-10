@@ -1,9 +1,9 @@
-package com.example.instrumentationTestsHilt.viewModels
+package com.example.instrumentedtesthilt.viewModels
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.example.instrumentationTestsHilt.models.Article
-import com.example.instrumentationTestsHilt.repository.ArticlesRepository
+import com.example.instrumentedtesthilt.models.Article
+import com.example.instrumentedtesthilt.repository.ArticlesRepository
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.asStateFlow

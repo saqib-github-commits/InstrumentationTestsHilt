@@ -1,4 +1,4 @@
-package com.example.instrumentationTestsHilt
+package com.example.instrumentedtesthilt
 
 import android.app.Application
 import dagger.hilt.android.HiltAndroidApp

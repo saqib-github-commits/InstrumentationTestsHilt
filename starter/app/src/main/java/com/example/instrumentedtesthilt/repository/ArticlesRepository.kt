@@ -1,6 +1,6 @@
-package com.example.instrumentationTestsHilt.repository
+package com.example.instrumentedtesthilt.repository
 
-import com.example.instrumentationTestsHilt.models.Article
+import com.example.instrumentedtesthilt.models.Article
 import kotlinx.coroutines.flow.Flow
 
 interface ArticlesRepository {
