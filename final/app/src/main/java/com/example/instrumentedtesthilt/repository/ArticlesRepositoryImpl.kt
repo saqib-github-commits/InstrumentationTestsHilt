@@ -1,12 +1,11 @@
-package com.example.instrumentationTestsHilt.data
+package com.example.instrumentedtesthilt.repository
 
-import com.example.instrumentationTestsHilt.models.Article
-import com.example.instrumentationTestsHilt.repository.ArticlesRepository
+import com.example.instrumentedtesthilt.models.Article
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.flow
 import javax.inject.Inject
 
-class FakeArticlesRepositoryImpl @Inject constructor(): ArticlesRepository {
+class ArticlesRepositoryImpl @Inject constructor(): ArticlesRepository {
 
     override fun getArticles(): Flow<List<Article>> = flow {
         emit(listOf(

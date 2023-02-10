@@ -1,4 +1,4 @@
-package com.example.instrumentationTestsHilt.ui.theme
+package com.example.instrumentedtesthilt.ui.theme
 
 import androidx.compose.ui.graphics.Color
 

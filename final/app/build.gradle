@@ -6,17 +6,17 @@ plugins {
 }
 
 android {
-    namespace 'com.example.instrumentationTestsHilt'
+    namespace 'com.example.instrumentedtesthilt'
     compileSdk 33
 
     defaultConfig {
-        applicationId "com.example.instrumentationTestsHilt"
+        applicationId "com.example.instrumentedtesthilt"
         minSdk 24
         targetSdk 33
         versionCode 1
         versionName "1.0"
 
-        testInstrumentationRunner "com.example.instrumentationTestsHilt.testrunner.CustomTestRunner"
+        testInstrumentationRunner "com.example.instrumentedtesthilt.testrunner.CustomTestRunner"
         vectorDrawables {
             useSupportLibrary true
         }

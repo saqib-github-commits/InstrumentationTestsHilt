@@ -1,4 +1,4 @@
-package com.example.instrumentationTestsHilt.composables
+package com.example.instrumentedtesthilt.composables
 
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.lazy.LazyColumn
@@ -14,8 +14,8 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.testTag
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
-import com.example.instrumentationTestsHilt.models.Article
-import com.example.instrumentationTestsHilt.viewModels.ArticlesViewModel
+import com.example.instrumentedtesthilt.models.Article
+import com.example.instrumentedtesthilt.viewModels.ArticlesViewModel
 
 @Composable
 fun ArticlesScreen(viewModel: ArticlesViewModel) {

@@ -1,10 +1,14 @@
-package com.example.instrumentationTestsHilt
+package com.example.instrumentedtesthilt
 
 import androidx.compose.ui.test.assertIsDisplayed
 import androidx.compose.ui.test.junit4.createAndroidComposeRule
+import androidx.compose.ui.test.junit4.createComposeRule
 import androidx.compose.ui.test.onNodeWithTag
 import androidx.compose.ui.test.onNodeWithText
-import com.example.instrumentationTestsHilt.repository.ArticlesRepository
+import androidx.hilt.navigation.compose.hiltViewModel
+import com.example.instrumentedtesthilt.composables.ArticlesScreen
+import com.example.instrumentedtesthilt.repository.ArticlesRepository
+import com.example.instrumentedtesthilt.ui.theme.InstrumentationTestsHiltTheme
 import dagger.hilt.android.testing.HiltAndroidRule
 import dagger.hilt.android.testing.HiltAndroidTest
 import kotlinx.coroutines.ExperimentalCoroutinesApi

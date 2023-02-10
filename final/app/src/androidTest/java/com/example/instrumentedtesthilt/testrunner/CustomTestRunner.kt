@@ -1,4 +1,4 @@
-package com.example.instrumentationTestsHilt.testrunner
+package com.example.instrumentedtesthilt.testrunner
 
 import android.app.Application
 import android.content.Context

@@ -1,7 +1,7 @@
-package com.example.instrumentationTestsHilt.di
+package com.example.instrumentedtesthilt.di
 
-import com.example.instrumentationTestsHilt.data.FakeArticlesRepositoryImpl
-import com.example.instrumentationTestsHilt.repository.ArticlesRepository
+import com.example.instrumentedtesthilt.data.FakeArticlesRepositoryImpl
+import com.example.instrumentedtesthilt.repository.ArticlesRepository
 import dagger.Binds
 import dagger.Module
 import dagger.hilt.components.SingletonComponent

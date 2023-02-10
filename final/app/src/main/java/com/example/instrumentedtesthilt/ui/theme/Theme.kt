@@ -1,4 +1,4 @@
-package com.example.instrumentationTestsHilt.ui.theme
+package com.example.instrumentedtesthilt.ui.theme
 
 import android.app.Activity
 import android.os.Build

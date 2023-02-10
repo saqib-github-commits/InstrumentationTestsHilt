@@ -1,4 +1,4 @@
-package com.example.instrumentationTestsHilt
+package com.example.instrumentedtesthilt
 
 import org.junit.Test
 

@@ -1,4 +1,4 @@
-package com.example.instrumentationTestsHilt.models
+package com.example.instrumentedtesthilt.models
 
 data class Article(
     val category: String,
